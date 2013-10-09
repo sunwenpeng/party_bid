@@ -1,0 +1,3 @@
+function CreateActivityListController($scope,$navigate){
+
+};

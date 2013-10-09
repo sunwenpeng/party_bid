@@ -1,7 +1,15 @@
-%header
+%header(style="height:50px" )
   活动列表
   %div(class="header-right" )
-    %a(href="" class="btn btn-primary")
+    %a(class="btn btn-primary" ng-click="go_to_create_activity_list()")
       创建活动
-      %i(class="icon-refresh")
-
+%div(id="wrapper" class="scrollable")
+  %ul(class="survey-list")
+    %li()
+      %a()
+        %h3
+          活动一
+    %li()
+      %a()
+        %h3
+          活动二

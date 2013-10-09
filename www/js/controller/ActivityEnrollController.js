@@ -1,1 +1,3 @@
-function ActivityEnrollController(){};
+function ActivityEnrollController($scope,$navigate){
+
+};

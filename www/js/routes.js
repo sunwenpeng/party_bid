@@ -1,9 +1,14 @@
 myModule.config(function($routeProvider) {
     $routeProvider.when("/",{
           templateUrl:"pages/activity_list.html",
+          controller:ActivityListController
+    }).when("/CreateActivityList",{
+          templateUrl:"pages/create_activity_list.html",
+          controller:CreateActivityListController
+    }).when("/ActivityEnroll",{
+          templateUrl:"pages/activity_enroll.html",
           controller:ActivityEnrollController
-    }).when(
-
+    }
         ).otherwise({
             redirectTo: "/"
         });
